@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- For responsiveness of the project -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the project -->
+    <title>AlarmClock SkillTest Project</title>
+    <!-- Linking the Css for styling the web page -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Creating the Alarm Setup Using analog Clock -->
+    <div class="wrapper">
+        <!-- Making a div class for containg the clock units/hands -->
+
+        <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hr"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mn"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="sc"></div>
+            </div>
+        </div>
+
+        <!-- These are the setup of digitsl clock -->
+         <!-- This h1 text changes to real time -->
+         <h1>00:00:00</h1>
+        <form class="setAlarm">
+            <!-- Div to set hours, minutes & seconds -->
+            <div class="set-alarm-field">
+                <input type="number" name="hr" placeholder="HH" max="23" min="00">
+                <input type="number" name="min" placeholder="MM" max="59" min="00">
+                <input type="number" name="sec" placeholder="SS" max="59" min="00">
+            </div>
+            <!-- Div that contains buttons -->
+            <div class="buttons">
+                <button type="submit" class="set-alarm">Set Alarm</button>
+                <button type="reset" onclick="stopAlarm()" class="clear-alarm">Stop Alarm</button>
+            </div>
+        </form>
+        <h3>Next Alarms</h3>
+
+        <!--For making a list of all set alarms -->
+        <div id="Next-alarms">
+            <ul id="Next-alarms-list">
+                <!-- The list item is added using javascript when set alarm button is pressed -->
+            </ul>
+        </div>
+        
+        </section>
+    </div>
+
+    <!-- linking the javascript file to the web page -->
+     <script src="script.js"></script>
+</body>
+</html>

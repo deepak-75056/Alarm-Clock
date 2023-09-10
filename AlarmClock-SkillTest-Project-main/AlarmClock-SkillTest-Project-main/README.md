@@ -32,14 +32,8 @@
 * JavaScript
   
   
-**Credits**
-* VS code Editor
-* W3 School
-* Stack Over Flow
-* Github search.
 
-**You May Also like the**
-* Music Player - https://wakininja.github.io/music_Player_project/
+
 
 
 

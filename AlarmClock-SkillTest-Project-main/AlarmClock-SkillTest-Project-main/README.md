@@ -1,7 +1,5 @@
 # AlarmClock-SkillTest-Project
 
-![AlarmClock SkillTest Project - Google Chrome 2022-10-18 19-10-30](https://user-images.githubusercontent.com/86143301/196457822-c7ee675e-96a0-4e56-ab1d-9378cde94564.gif)
-
 **Features**
 * Analog Clock
   * To show the time as analog I have created this clock.
@@ -21,11 +19,6 @@
     * For each alarm give a delete button to delete the alarm.
     * When the user deletes an alarm make sure it "does not alerts the user".
     
-    
-**How To Use**
-  * To Use this alarm click the link https://wakininja.github.io/AlarmClock-SkillTest-Project/ to see this alarm live & play with it simple :)
-  
-  
 **Web Technologies Used**
 * HTML  
 * CSS  
